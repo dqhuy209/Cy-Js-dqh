@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.wrapper-slide {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+}
+
+.slides-container {
+  max-width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+
+}
+
+.mySlides img {
+  width: 500px;
+  user-select: none;
+}
+
+
+
+svg {
+  width: 50px;
+  position: absolute;
+  cursor: pointer;
+  top: 200px;
+}
+
+.right {
+  right: 0;
+}
